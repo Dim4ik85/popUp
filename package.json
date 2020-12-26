@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/index.html --public-url /popUp/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"    
   },
   "repository": {
     "type": "git",
