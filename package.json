@@ -1,0 +1,34 @@
+{
+  "name": "popup",
+  "version": "1.0.0",
+  "description": "Модальное окно",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/index.html --public-url /popUp/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dim4ik85/popUp.git"
+  },
+  "author": "Dim4ik85",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dim4ik85/popUp/issues"
+  },
+  "homepage": "https://dim4ik85.github.io/popUp/",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "sass": "^1.30.0"
+  }
+}
