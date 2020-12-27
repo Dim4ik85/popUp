@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dim4ik85/popUp.git"
+    "url": "git+https://github.com/Dim4ik85/popup.git"
   },
   "keywords": [],
   "author": "Dmitro Sahaidachnyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dim4ik85/popUp/issues"
+    "url": "https://github.com/Dim4ik85/popup/issues"
   },
-  "homepage": "https://github.com/Dim4ik85/popUp#readme",
+  "homepage": "https://github.com/Dim4ik85/popup#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.30.0"
